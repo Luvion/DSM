@@ -9,7 +9,6 @@ $name2 = $_POST['name-2'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$check = $_POST['checkbox'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
@@ -32,7 +31,7 @@ $mail->addAddress('dimasludinov@yandex.ru');     // Кому будет уход
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка с тестового сайта';
-$mail->Body    = '' .$name1.' '.$name2. ' оставил заявку, его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email. '<br>Cообщение: ' .$message. '<br>subscribe to the newsletter' .$check;
+$mail->Body    = '' .$name1.' '.$name2. ' оставил заявку, его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email. '<br>Cообщение: ' .$message;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
