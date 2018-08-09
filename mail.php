@@ -9,7 +9,7 @@ $name2 = $_POST['name-2'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$check = $_POST['checkbox']
+$check = $_POST['checkbox'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
