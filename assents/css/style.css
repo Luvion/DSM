@@ -591,7 +591,7 @@ header{
 	background-color: #FAFAFA;
 }
 
-.contact input[type="submit"] {
+.contact .submit-form {
 	position: absolute;
 	right: 0;
 	bottom: 0;
